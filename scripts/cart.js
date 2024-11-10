@@ -1,7 +1,7 @@
 console.clear();
 async function fetchProducts() {
     try {
-      const response = await fetch("../jsons/product.json");
+      const response = await fetch("/jsons/product.json");
       const products = await response.json();
       renderProducts(products);
     } catch (error) {
@@ -84,7 +84,7 @@ let buttonTag = document.createElement("button");
 buttonDiv.appendChild(buttonTag);
 
 let buttonLink = document.createElement("a");
-buttonLink.href = "../pages/orderPlace.html?";
+buttonLink.href = "/pages/orderPlace.html?";
 buttonTag.appendChild(buttonLink);
 
 buttonText = document.createTextNode("Place Order");
