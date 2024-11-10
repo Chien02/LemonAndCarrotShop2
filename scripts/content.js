@@ -16,7 +16,7 @@ function renderProducts(products) {
     
     products.forEach((product) => {
         const productElement = document.createElement("div");
-        const productID = "contentDetail.html?id=" + product.id;
+        const productID = "./pages/contentDetail.html?id=" + product.id;
         productElement.className = 'col-lg-3 col-md-6 col-12 d-flex align-items-stretch justify-content-around';
         
         productElement.innerHTML = `
