@@ -33,40 +33,21 @@
     <div id="footer"></div>
     <!-- Load other pages -->
     <script>
-      load("pages/header.html");
-      function load(url) {
-        req = new XMLHttpRequest();
-        req.open("GET", url, false);
-        req.send(null);
-        document.getElementById("header").innerHTML = req.responseText;
+      async function loadComponent(id, url) {
+        try {
+          const response = await fetch(url);
+          const html = await response.text();
+          document.getElementById(id).innerHTML = html;
+        } catch (error) {
+          console.error(`Error loading ${url}:`, error);
+        }
       }
-    </script>
-    <script>
-      load("pages/slider.html");
-      function load(url) {
-        req = new XMLHttpRequest();
-        req.open("GET", url, false);
-        req.send(null);
-        document.getElementById("slider").innerHTML = req.responseText;
-      }
-    </script>
-    <script>
-      load("pages/content.html");
-      function load(url) {
-        req = new XMLHttpRequest();
-        req.open("GET", url, false);
-        req.send(null);
-        document.getElementById("content").innerHTML = req.responseText;
-      }
-    </script>
-    <script>
-      load("pages/footer.html");
-      function load(url) {
-        req = new XMLHttpRequest();
-        req.open("GET", url, false);
-        req.send(null);
-        document.getElementById("footer").innerHTML = req.responseText;
-      }
+    
+      // Load components asynchronously
+      loadComponent("header", "pages/header.html");
+      loadComponent("slider", "pages/slider.html");
+      loadComponent("content", "pages/content.html");
+      loadComponent("footer", "pages/footer.html");
     </script>
     <!-- For displaying products -->
     <script src="scripts/content.js"></script>
