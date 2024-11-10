@@ -9,17 +9,11 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="http://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
 
@@ -33,7 +27,7 @@
     <div id="footer"></div>
     <!-- Load other pages -->
     <script>
-      load("/pages/header.html");
+      load("pages/header.html");
       function load(url) {
         req = new XMLHttpRequest();
         req.open("GET", url, false);
@@ -42,7 +36,7 @@
       }
     </script>
     <script>
-      load("/pages/slider.html");
+      load("pages/slider.html");
       function load(url) {
         req = new XMLHttpRequest();
         req.open("GET", url, false);
@@ -51,7 +45,7 @@
       }
     </script>
     <script>
-      load("/pages/content.html");
+      load("pages/content.html");
       function load(url) {
         req = new XMLHttpRequest();
         req.open("GET", url, false);
@@ -69,6 +63,6 @@
       }
     </script>
     <!-- For displaying products -->
-    <script src="/scripts/content.js"></script>
+    <script src="scripts/content.js"></script>
   </body>
 </html>
