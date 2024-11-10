@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+/* 
+#FEE60E : yellow
+#faf2a8 : light yellow
+#FFAD42 : light orange
+#69995D : light green
+#0D1821 : rich black
+#344966 : indiego dye
+#F5F5F5 : white smoke
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.contentBody img {
+    
+    height: 180px;
+}
+
+.card a{
+    color: #344966;
+    background-color: white;
+}
+
+.card a:hover {
+    color: #faf2a8;
+    background-color: #344966;
+}
+
+.card h5 {
+    color: #FFAD42;
+}

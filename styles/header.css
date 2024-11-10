@@ -1,0 +1,102 @@
+/* 
+#FEE60E : yellow
+#faf2a8 : light yellow
+#FFAD42 : light orange
+#69995D : light green
+#0D1821 : rich black
+#344966 : indiego dye
+#F5F5F5 : white smoke
+*/
+/* <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"> */
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navContainer {
+  background-color: #faf2a8;
+  height: 5rem;
+}
+
+.navbar-brand {
+  margin-right: 5px;
+}
+.nav-link {
+  margin: 8px 8px;
+}
+.nav-item:hover {
+  color: #faf2a8;
+  background-color: #fee60e;
+}
+#logo {
+  max-width: 7rem;
+  height: auto;
+  margin-right: 10px;
+}
+
+.form-spacing {
+  margin-right: 0px; /* Adjust this value as needed */
+}
+
+#dropdownMenu {
+  background-color: #0d1821;
+}
+
+#dropdownMenu .dropdown-header {
+  color: #fee60e;
+}
+
+#dropdownMenu .dropdown-item {
+  color: #faf2a8;
+}
+#dropdownMenu .dropdown-item:hover {
+  color: #fee60e;
+  background-color: #344966;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  margin-left: 1rem;
+}
+
+.megaMenuItem {
+  max-width: 17rem;
+  height: auto;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Ensure proper hover behavior */
+.nav-item.dropdown .dropdown-menu {
+  margin-top: 0; /* Align dropdown */
+  transition: 0.2s ease-in-out;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* --------------Media utilities--------- */
+/* For large screens */
+@media (max-width: 990px) {
+  #logo {
+    width: 5rem;
+    height: auto;
+  }
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  #logo {
+    width: 4rem;
+  }
+}
+
+/* For extra small screens */
+@media (max-width: 576px) {
+  #logo {
+    width: 4rem;
+  }
+}
