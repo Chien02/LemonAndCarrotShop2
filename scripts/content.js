@@ -1,7 +1,7 @@
 // Fetch the product data from the JSON file
 async function fetchProducts() {
   try {
-    const response = await fetch("jsons/product.json");
+    const response = await fetch("/oct.cloveraccessory/jsons/product.json");
     const products = await response.json();
     renderProducts(products);
   } catch (error) {
