@@ -4,7 +4,7 @@
     "name": "Product 1",
     "description": "This is a description of Product 1",
     "price": 19.99,
-    "photos": ["/images/img1.jpg"],
+    "photos": ["./images/img1.jpg"],
     "isAccessory": false,
     "size": [
         1,
@@ -14,14 +14,14 @@
         0
     ],
     "brand": "United Colors of Benetton",
-    "preview": "/images/img1.jpg"
+    "preview": "./images/img1.jpg"
   },
   {
     "id": 2,
     "name": "Product 2",
     "description": "This is a description of Product 2",
     "price": 29.99,
-    "photos": ["/images/img1.jpg"],
+    "photos": ["./images/img1.jpg"],
     "isAccessory": false,
     "size": [
         1,
@@ -31,14 +31,14 @@
         0
     ],
     "brand": "United Colors of Benetton",
-    "preview": "/images/img1.jpg"
+    "preview": "./images/img1.jpg"
   },
   {
     "id": 3,
     "name": "Product 3",
     "description": "This is a description of Product 3",
     "price": 39.99,
-    "photos": ["/images/img1.jpg"],
+    "photos": ["./images/img1.jpg"],
     "isAccessory": false,
     "size": [
         1,
@@ -48,14 +48,14 @@
         0
     ],
     "brand": "United Colors of Benetton",
-    "preview": "/images/img1.jpg"
+    "preview": "./images/img1.jpg"
   },
   {
     "id": 4,
     "name": "Product 4",
     "description": "This is a description of Product 1",
     "price": 19.99,
-    "photos": ["/images/img1.jpg"],
+    "photos": ["./images/img1.jpg"],
     "isAccessory": false,
     "size": [
         1,
@@ -65,14 +65,14 @@
         0
     ],
     "brand": "United Colors of Benetton",
-    "preview": "/images/img1.jpg"
+    "preview": "./images/img1.jpg"
   },
   {
     "id": 5,
     "name": "Product 5",
     "description": "This is a description of Product 2",
     "price": 29.99,
-    "photos": ["/images/img1.jpg"],
+    "photos": ["./images/img1.jpg"],
     "isAccessory": false,
     "size": [
         1,
@@ -82,14 +82,14 @@
         0
     ],
     "brand": "United Colors of Benetton",
-    "preview": "/images/img1.jpg"
+    "preview": "./images/img1.jpg"
   },
   {
     "id": 6,
     "name": "Product 6",
     "description": "This is a description of Product 3",
     "price": 39.99,
-    "photos": ["/images/img1.jpg"],
+    "photos": ["./images/img1.jpg"],
     "isAccessory": false,
     "size": [
         1,
@@ -99,14 +99,14 @@
         0
     ],
     "brand": "United Colors of Benetton",
-    "preview": "/images/img1.jpg"
+    "preview": "./images/img1.jpg"
   },
   {
     "id": 7,
     "name": "Product 5",
     "description": "This is a description of Product 2",
     "price": 29.99,
-    "photos": ["/images/img1.jpg"],
+    "photos": ["./images/img1.jpg"],
     "isAccessory": false,
     "size": [
         1,
@@ -116,14 +116,14 @@
         0
     ],
     "brand": "United Colors of Benetton",
-    "preview": "/images/img1.jpg"
+    "preview": "./images/img1.jpg"
   },
   {
     "id": 8,
     "name": "Product 6",
     "description": "This is a description of Product 3",
     "price": 39.99,
-    "photos": ["/images/img1.jpg"],
+    "photos": ["./images/img1.jpg"],
     "isAccessory": false,
     "size": [
         1,
@@ -133,6 +133,6 @@
         0
     ],
     "brand": "United Colors of Benetton",
-    "preview": "/images/img1.jpg"
+    "preview": "./images/img1.jpg"
   }
 ]

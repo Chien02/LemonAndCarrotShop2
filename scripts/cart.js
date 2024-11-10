@@ -84,7 +84,7 @@ let buttonTag = document.createElement("button");
 buttonDiv.appendChild(buttonTag);
 
 let buttonLink = document.createElement("a");
-buttonLink.href = "../pages/orderPlace.html?";
+buttonLink.href = "orderPlace.html?";
 buttonTag.appendChild(buttonLink);
 
 buttonText = document.createTextNode("Place Order");
