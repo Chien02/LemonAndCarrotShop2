@@ -22,7 +22,7 @@ body {
 
 .contentBody img {
     
-    height: 180px;
+    height: 220px;
 }
 
 .card a{
@@ -30,7 +30,7 @@ body {
     background-color: white;
 }
 
-.card a:hover {
+.card:hover{
     color: #faf2a8;
     background-color: #344966;
 }

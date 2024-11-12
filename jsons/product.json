@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "name": "Product 1",
-    "description": "This is a description of Product 1",
+    "name": "Glitz Halter Top",
+    "description": "A shimmering halter top with metallic fabric that catches the light. Featuring a plunging neckline and open back, this piece screams early 2000s glam with its sparkling finish, perfect for a night out.",
     "price": 19.99,
-    "photos": ["./images/img1.jpg"],
+    "photos": ["./images/img.jpg"],
     "isAccessory": false,
     "size": [
         1,
@@ -14,14 +14,14 @@
         0
     ],
     "brand": "United Colors of Benetton",
-    "preview": "./images/img1.jpg"
+    "preview": "./images/img.jpg"
   },
   {
     "id": 2,
-    "name": "Product 2",
-    "description": "This is a description of Product 2",
+    "name": "CyberCrop Tee",
+    "description": "A futuristic, form-fitting cropped tee with bold graphics and metallic accents. It features vibrant colors and bold text, capturing the tech-inspired aesthetic of the Y2K era.",
     "price": 29.99,
-    "photos": ["./images/img1.jpg"],
+    "photos": ["./images/img19.jpg"],
     "isAccessory": false,
     "size": [
         1,
@@ -31,14 +31,14 @@
         0
     ],
     "brand": "United Colors of Benetton",
-    "preview": "./images/img1.jpg"
+    "preview": "./images/19.jpg"
   },
   {
     "id": 3,
-    "name": "Product 3",
-    "description": "This is a description of Product 3",
+    "name": "Butterfly Baby Tee",
+    "description": "A tight-fitting baby tee adorned with a large, colorful butterfly print. With short sleeves and a slightly cropped length, it embodies the playful and cute side of early 2000s fashion.",
     "price": 39.99,
-    "photos": ["./images/img1.jpg"],
+    "photos": ["./images/img5.jpg"],
     "isAccessory": false,
     "size": [
         1,
@@ -48,14 +48,14 @@
         0
     ],
     "brand": "United Colors of Benetton",
-    "preview": "./images/img1.jpg"
+    "preview": "./images/img5.jpg"
   },
   {
     "id": 4,
-    "name": "Product 4",
-    "description": "This is a description of Product 1",
+    "name": "Rhinestone Tube Top",
+    "description": "This strapless tube top features a sleek silhouette covered in sparkling rhinestones. It's stretchy and body-hugging, designed to make you the center of attention at any party.",
     "price": 19.99,
-    "photos": ["./images/img1.jpg"],
+    "photos": ["./images/6.jpg"],
     "isAccessory": false,
     "size": [
         1,
@@ -65,14 +65,14 @@
         0
     ],
     "brand": "United Colors of Benetton",
-    "preview": "./images/img1.jpg"
+    "preview": "./images/6.jpg"
   },
   {
     "id": 5,
-    "name": "Product 5",
-    "description": "This is a description of Product 2",
+    "name": "Velvet Tankini ",
+    "description": "A luxurious velvet two-piece tank top with a fitted design. It blends the comfort of a tank top with the elegance of a party piece, perfect for layering or wearing alone.",
     "price": 29.99,
-    "photos": ["./images/img1.jpg"],
+    "photos": ["./images/7.jpg"],
     "isAccessory": false,
     "size": [
         1,
@@ -82,14 +82,14 @@
         0
     ],
     "brand": "United Colors of Benetton",
-    "preview": "./images/img1.jpg"
+    "preview": "./images/7.jpg"
   },
   {
     "id": 6,
-    "name": "Product 6",
-    "description": "This is a description of Product 3",
+    "name": "Metallic Cowl Neck",
+    "description": "A draped cowl neck top made from shiny, metallic fabric. It has a loose, cascading neckline that gives it a chic, slinky look, ideal for pairing with low-rise jeans or mini skirts.",
     "price": 39.99,
-    "photos": ["./images/img1.jpg"],
+    "photos": ["./images/img8.jpg"],
     "isAccessory": false,
     "size": [
         1,
@@ -99,14 +99,14 @@
         0
     ],
     "brand": "United Colors of Benetton",
-    "preview": "./images/img1.jpg"
+    "preview": "./images/img8.jpg"
   },
   {
     "id": 7,
-    "name": "Product 5",
-    "description": "This is a description of Product 2",
+    "name": "Mesh Long Sleeve",
+    "description": "A see-through, long-sleeved mesh top featuring bold prints like flames, stars, or abstract patterns. It’s a versatile piece that can be layered over a bralette or worn under graphic tees.",
     "price": 29.99,
-    "photos": ["./images/img1.jpg"],
+    "photos": ["./images/img9.jpg"],
     "isAccessory": false,
     "size": [
         1,
@@ -116,14 +116,14 @@
         0
     ],
     "brand": "United Colors of Benetton",
-    "preview": "./images/img1.jpg"
+    "preview": "./images/img9.jpg"
   },
   {
     "id": 8,
-    "name": "Product 6",
-    "description": "This is a description of Product 3",
+    "name": "Graphic Y2K Tee",
+    "description": "A nostalgic graphic tee with iconic early 2000s logos, catchphrases, or pop culture references. Slightly oversized with a vintage feel, this piece is perfect for embracing the throwback vibe.",
     "price": 39.99,
-    "photos": ["./images/img1.jpg"],
+    "photos": ["./images/img10.jpg"],
     "isAccessory": false,
     "size": [
         1,
@@ -133,6 +133,142 @@
         0
     ],
     "brand": "United Colors of Benetton",
-    "preview": "./images/img1.jpg"
+    "preview": "./images/img10.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Shimmer Tie-Front Cardigan",
+    "description": "A brightly colored, thin-strapped camisole in neon shades like lime green, hot pink, or electric blue. It’s made from stretchy fabric with a glossy finish, embodying the boldness of Y2K fashion.",
+    "price": 19.99,
+    "photos": ["./images/img11.jpg"],
+    "isAccessory": false,
+    "size": [
+        1,
+        1,
+        0,
+        1,
+        0
+    ],
+    "brand": "United Colors of Benetton",
+    "preview": "./images/img11.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Neon Camisole",
+    "description": "Classic low-rise denim with a fitted upper and exaggerated flared bottoms. Often adorned with distressed details or embroidered patches, these jeans are quintessential to Y2K style.",
+    "price": 29.99,
+    "photos": ["./images/img12.jpg"],
+    "isAccessory": false,
+    "size": [
+        1,
+        1,
+        0,
+        1,
+        0
+    ],
+    "brand": "United Colors of Benetton",
+    "preview": "./images/img12.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Low-Rise Flare Jeans",
+    "description": "Baggy, lightweight pants with multiple oversized pockets, adjustable drawstrings, and a relaxed fit. These utilitarian pants offer a streetwear vibe, perfect for a casual Y2K look.",
+    "price": 39.99,
+    "photos": ["./images/img13.jpg"],
+    "isAccessory": false,
+    "size": [
+        1,
+        1,
+        0,
+        1,
+        0
+    ],
+    "brand": "United Colors of Benetton",
+    "preview": "./images/img13.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Cargo Parachute Pants",
+    "description": "Capri-length pants featuring a bold checkerboard pattern in contrasting colors. The cropped fit and playful design make them a standout piece for any Y2K-inspired outfit.",
+    "price": 19.99,
+    "photos": ["./images/img14.jpg"],
+    "isAccessory": false,
+    "size": [
+        1,
+        1,
+        0,
+        1,
+        0
+    ],
+    "brand": "United Colors of Benetton",
+    "preview": "./images/img14.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Checkerboard Capris ",
+    "description": "Mid to low-rise jeans with a flattering bootcut silhouette, featuring rhinestone embellishments along the pockets and seams. The sparkling details add a glamorous touch to this classic denim style.",
+    "price": 29.99,
+    "photos": ["./images/img15.jpg"],
+    "isAccessory": false,
+    "size": [
+        1,
+        1,
+        0,
+        1,
+        0
+    ],
+    "brand": "United Colors of Benetton",
+    "preview": "./images/img15.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Bedazzled Bootcut Jeans",
+    "description": "A draped cowl neck top made from shiny, metallic fabric. It has a loose, cascading neckline that gives it a chic, slinky look, ideal for pairing with low-rise jeans or mini skirts.",
+    "price": 39.99,
+    "photos": ["./images/img16.jpg"],
+    "isAccessory": false,
+    "size": [
+        1,
+        1,
+        0,
+        1,
+        0
+    ],
+    "brand": "United Colors of Benetton",
+    "preview": "./images/img16.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Vinyl Flared Pants",
+    "description": "A see-through, long-sleeved mesh top featuring bold prints like flames, stars, or abstract patterns. It’s a versatile piece that can be layered over a bralette or worn under graphic tees.",
+    "price": 29.99,
+    "photos": ["./images/img20.jpg"],
+    "isAccessory": false,
+    "size": [
+        1,
+        1,
+        0,
+        1,
+        0
+    ],
+    "brand": "United Colors of Benetton",
+    "preview": "./images/img20.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Velour Track Pants",
+    "description": "Soft and plush, these low-rise track pants are made from velour fabric. With a relaxed fit and often paired with a matching zip-up hoodie, they capture the cozy yet stylish Y2K athleisure trend.",
+    "price": 39.99,
+    "photos": ["./images/img18.jpg"],
+    "isAccessory": false,
+    "size": [
+        1,
+        1,
+        0,
+        1,
+        0
+    ],
+    "brand": "United Colors of Benetton",
+    "preview": "./images/img18.jpg"
   }
 ]
