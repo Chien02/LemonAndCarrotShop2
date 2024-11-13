@@ -24,22 +24,29 @@ boxContainerDiv.id = "boxContainer";
 function dynamicCartSection(ob, itemCounter) {
   let boxDiv = document.createElement("div");
   boxDiv.id = "box";
+  boxDiv.className = "card d-flex flex-row"
   boxContainerDiv.appendChild(boxDiv);
 
   let boxImg = document.createElement("img");
+  boxImg.className = "d-flex align-self-start col"
   boxImg.src = ob.preview;
   boxDiv.appendChild(boxImg);
 
+  let titleContainer = document.createElement("div");
+  titleContainer.className = "d-flex align-self-end col";
+  boxDiv.appendChild(titleContainer);
+
   let boxh3 = document.createElement("h3");
+  boxh3.className = "d-flex align-items-top"
   let h3Text = document.createTextNode(ob.name + " × " + itemCounter);
   // let h3Text = document.createTextNode(ob.name)
   boxh3.appendChild(h3Text);
-  boxDiv.appendChild(boxh3);
+  titleContainer.appendChild(boxh3);
 
   let boxh4 = document.createElement("h4");
   let h4Text = document.createTextNode("Amount: Price" + ob.price);
   boxh4.appendChild(h4Text);
-  boxDiv.appendChild(boxh4);
+  titleContainer.appendChild(boxh4);
 
   // console.log(boxContainerDiv);
 
