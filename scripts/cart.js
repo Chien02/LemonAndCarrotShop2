@@ -32,11 +32,11 @@ function dynamicCartSection(ob, itemCounter) {
   const cardDiv = document.createElement("div");
   cardDiv.className = "card container shadow p-2 m-1";
   let cardElements = `
-    <div class="row g-0" style="height: 124px">
-      <div class="col-md-4">
-        <img src="${ob.preview}" class="img-fluid rounded" style="height: 124px">
+    <div class="row g-0">
+      <div class="col-md-4 col-sm-4">
+        <img src="${ob.preview}" class="img-fluid rounded" style="height: 124px; object-fit: cover";>
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8 col-sm-8 w-auto">
         <div class="card-body">
           <h5 class="card-title">${ob.name}</h5>
           <p class="card-text">Price: ${ob.price} Amount: ${itemCounter}</p>
@@ -51,7 +51,7 @@ function dynamicCartSection(ob, itemCounter) {
 
 let totalContainerDiv = document.createElement("div");
 totalContainerDiv.id = "totalContainer";
-totalContainerDiv.className = "card container w-50 h-100 m-2 p-2 text-center";
+totalContainerDiv.className = "card container d-lg-flex d-sm-block mx-auto justify-content-sm-center w-50 h-100 m-2 p-2 text-center";
 
 let totalDiv = document.createElement("div");
 totalDiv.id = "total";
