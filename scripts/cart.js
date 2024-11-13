@@ -22,33 +22,6 @@ boxContainerDiv.id = "boxContainer";
 
 // DYNAMIC CODE TO SHOW THE SELECTED ITEMS IN YOUR CART
 function dynamicCartSection(ob, itemCounter) {
-  let boxDiv = document.createElement("div");
-  boxDiv.id = "box";
-  boxDiv.className = "card d-flex flex-row"
-  boxContainerDiv.appendChild(boxDiv);
-
-  let boxImg = document.createElement("img");
-  boxImg.className = "d-flex align-self-start col"
-  boxImg.src = ob.preview;
-  boxDiv.appendChild(boxImg);
-
-  let titleContainer = document.createElement("div");
-  titleContainer.className = "d-flex align-self-end col";
-  boxDiv.appendChild(titleContainer);
-
-  let boxh3 = document.createElement("h3");
-  boxh3.className = "d-flex align-items-top"
-  let h3Text = document.createTextNode(ob.name + " × " + itemCounter);
-  // let h3Text = document.createTextNode(ob.name)
-  boxh3.appendChild(h3Text);
-  titleContainer.appendChild(boxh3);
-
-  let boxh4 = document.createElement("h4");
-  let h4Text = document.createTextNode("Amount: Price" + ob.price);
-  boxh4.appendChild(h4Text);
-  titleContainer.appendChild(boxh4);
-
-  // console.log(boxContainerDiv);
 
   buttonLink.appendChild(buttonText);
   cartContainer.appendChild(boxContainerDiv);
@@ -56,26 +29,47 @@ function dynamicCartSection(ob, itemCounter) {
   let cartMain = document.getElementById("cartMainContainer");
   cartMain.appendChild(totalContainerDiv);
 
+  const cardDiv = document.createElement("div");
+  cardDiv.className = "card container shadow p-2 m-1";
+  let cardElements = `
+    <div class="row g-0" style="height: 124px">
+      <div class="col-md-4">
+        <img src="${ob.preview}" class="img-fluid rounded" style="height: 124px">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">${ob.name}</h5>
+          <p class="card-text">Price: ${ob.price} Amount: ${itemCounter}</p>
+        </div>
+      </div>
+    </div>
+  `;
+  cardDiv.innerHTML = cardElements;
+  cartContainer.appendChild(cardDiv)
   return cartContainer;
 }
 
 let totalContainerDiv = document.createElement("div");
 totalContainerDiv.id = "totalContainer";
+totalContainerDiv.className = "card container w-50 h-100 m-2 p-2 text-center";
 
 let totalDiv = document.createElement("div");
 totalDiv.id = "total";
 totalContainerDiv.appendChild(totalDiv);
 
 let totalh2 = document.createElement("h2");
-let h2Text = document.createTextNode("Total Amount");
+let h2Text = document.createTextNode("TOTAL AMOUNT:");
 totalh2.appendChild(h2Text);
+totalh2.className = "p-2 m-2"
+totalh2.style = "color: #F5F5F5";
 totalDiv.appendChild(totalh2);
 
 // TO UPDATE THE TOTAL AMOUNT
 function amountUpdate(amount) {
   let totalh4 = document.createElement("h4");
+  totalh4.style = "color: #FFAD42";
   // let totalh4Text = document.createTextNode(amount)
-  let totalh4Text = document.createTextNode("Amount: price " + amount);
+  let totalh4Text = document.createTextNode("AMOUNT: PRICE " + amount);
   totalh4Text.id = "toth4";
   totalh4.appendChild(totalh4Text);
   totalDiv.appendChild(totalh4);
@@ -84,17 +78,20 @@ function amountUpdate(amount) {
 }
 
 let buttonDiv = document.createElement("div");
-buttonDiv.id = "button";
+buttonDiv.id = "buttonDiv"
 totalDiv.appendChild(buttonDiv);
 
 let buttonTag = document.createElement("button");
+buttonTag.id = "orderButton"
+buttonTag.className = "rounded"
 buttonDiv.appendChild(buttonTag);
 
 let buttonLink = document.createElement("a");
+buttonLink.className = "text-decoration-none p-2 m-2 mx-auto"
 buttonLink.href = "orderPlace.html?";
 buttonTag.appendChild(buttonLink);
 
-buttonText = document.createTextNode("Place Order");
+buttonText = document.createTextNode("PLACE ORDER");
 buttonTag.onclick = function () {
   console.log("clicked");
 };
