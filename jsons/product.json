@@ -21,7 +21,7 @@
     "name": "CyberCrop Tee",
     "description": "A futuristic, form-fitting cropped tee with bold graphics and metallic accents. It features vibrant colors and bold text, capturing the tech-inspired aesthetic of the Y2K era.",
     "price": 29.99,
-    "photos": ["./images/img19.jpg"],
+    "photos": ["./images/img20.jpg"],
     "isAccessory": false,
     "size": [
         1,
@@ -31,7 +31,7 @@
         0
     ],
     "brand": "United Colors of Benetton",
-    "preview": "./images/19.jpg"
+    "preview": "./images/img19.jpg"
   },
   {
     "id": 3,

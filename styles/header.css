@@ -69,6 +69,11 @@ li a {
   visibility: visible;
 }
 
+.dropdown-item img {
+  width: 90%;
+  height: 90%;
+}
+
 /* Ensure proper hover behavior */
 .nav-item.dropdown .dropdown-menu {
   margin-top: 0; /* Align dropdown */
